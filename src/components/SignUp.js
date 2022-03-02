@@ -9,12 +9,13 @@ import { useEffect } from "react";
 
 
 const SignUp = (props) => {
+  console.log(process.env.REACT_APP_ACCESS_KEY_ID)
   const navigate = useNavigate();
   const CognitoClient = new CognitoIdentityProviderClient({
     region: "us-east-1",
     credentials: {
-      accessKeyId: "AKIAV6SYZCC5Q253WFUB",
-      secretAccessKey: "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",
+      accessKeyId: process.env.REACT_APP_ACCESS_KEY_ID,
+      secretAccessKey: process.env.REACT_APP_SECRET_ACCESS_KEY,
     },
   });
 
