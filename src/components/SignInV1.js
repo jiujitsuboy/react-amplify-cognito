@@ -3,7 +3,7 @@ import { Auth } from "aws-amplify";
 import { useNavigate } from "react-router-dom";
 
 
-const SignIn = (props) => {
+const SignInV1 = (props) => {
   const navigate = useNavigate();
   const [errMsg, setErrMsg] = useState("");
   const [buttonDisabled, setButtonDisabled] = useState(false);
@@ -55,4 +55,4 @@ const SignIn = (props) => {
   );
 };
 
-export default SignIn;
+export default SignInV1;

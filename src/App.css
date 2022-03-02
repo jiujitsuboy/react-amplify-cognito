@@ -158,3 +158,22 @@ span.signup {
   padding: 10px 18px;
   background-color: blue;
 }
+
+.Navbar{
+  border-bottom: "solid 1px";
+  padding-bottom: "1rem";
+  display: inline-block;
+  margin-right:40px;
+  padding: 20px 10px;
+}
+
+.NavLink:hover{
+  border-bottom-style:solid;
+  border-bottom-color: white;
+  font-weight: bolder;
+}
+
+.NavLink {
+  color: white; 
+  float: none;
+}
