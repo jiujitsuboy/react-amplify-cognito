@@ -1,0 +1,10 @@
+a:hover{
+    border-bottom-style:solid;
+    border-bottom-color: white;
+    font-weight: bolder;
+  }
+  
+a {
+    color: white; 
+    float: none;
+  }

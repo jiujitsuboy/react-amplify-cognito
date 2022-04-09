@@ -45,7 +45,7 @@ const SignUp = (props) => {
           Value: "true",
         },
         {
-          Name: "custom:purchaserId",
+          Name: "custom:purchaser_id",
           Value: purchaserId,
         },
       ],
